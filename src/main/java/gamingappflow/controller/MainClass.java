@@ -30,7 +30,7 @@ public class MainClass { // controller package
 					System.out.println("ur not allowed to play");
 					break;
 				} else {
-					p.setAge(sc.nextInt());
+					p.setAge(age);
 					System.out.println("Enter mail id");
 					p.setEmail(sc.next());
 					System.out.println("Enter password");
